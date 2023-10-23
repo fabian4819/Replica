@@ -1,0 +1,229 @@
+.App {
+  text-align: center;
+  background-color: #282c45;
+}
+
+.App-header {
+  background-color: #282c34;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+  position: fixed;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  max-width: 1200px;
+  margin: 0 auto;
+  flex-wrap: wrap;
+}
+
+.navbar .logo {
+  margin-left: 150px;
+  margin-right: 10px;
+}
+
+.navbar .judul {
+  float: left;
+  margin-right: 160px;
+  font-size: 2rem;
+  font-weight: 800;
+  color: #fff;
+  text-decoration: none;
+  margin-bottom: 5px;
+}
+
+.navbar .navbar-nav {
+  padding: 10px 10px 10px 0;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.navbar .navbar-nav a {
+  float: left;
+  text-align: center;
+  margin-right: 10px;
+  display: inline-block;
+  margin-top: 5px;
+  font-weight: 600;
+  font-size: 0.8rem;
+  color: #fff;
+  text-decoration: none;
+}
+
+.navbar .navbar-nav a:hover {
+  float: left;
+  text-align: center;
+  margin-right: 10px;
+  display: inline-block;
+  margin-top: 5px;
+  font-weight: 600;
+  font-size: 0.8rem;
+  color: #fff;
+  text-decoration: none;
+  opacity: 0.5;
+}
+
+.Movie-search {
+  padding: 8px;
+  margin-right: 10px;
+  border-radius: 20px;
+}
+
+.Movie-search:hover {
+  padding: 8px;
+  margin-right: 10px;
+  border-radius: 20px;
+  opacity: 0.5;
+}
+
+.name {
+  font-size: 0.7em;
+  font-style: italic;
+  color: #86f1c8;
+}
+
+.name span {
+  display: block;
+  margin-bottom: 5px;
+  color: aqua;
+}
+
+.Movie-container {
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+}
+
+.Movie-wrapper {
+  width: 500px;
+  background-color: antiquewhite;
+  color: black;
+}
+
+.Movie-wrapper:hover {
+  width: 500px;
+  background-color: #298987;
+  color: black;
+  opacity: 1.5;
+}
+
+.Movie-title {
+  height: 60px;
+  margin-top: 26px;
+  font-weight: bold;
+}
+
+.Movie-date {
+  margin-top: 26px;
+  font-style: italic;
+}
+
+.Movie-rate span {
+  color: black;
+  font-weight: 500;
+}
+
+.Movie-rate {
+  color: red;
+  margin-bottom: 24px;
+  font-weight: bold;
+  font-size: 1.2em;
+  text-decoration: none;
+}
+
+.text {
+  color: white;
+  margin-top: -450px;
+  margin-bottom: 550px;
+  margin-left: 300px;
+  margin-right: 300px;
+  font-size: 2.5em;
+  font-style: italic;
+  opacity: 0.7;
+}
+
+.text2 {
+  color: white;
+  margin-top: -300px;
+  margin-bottom: 20px;
+  margin-left: 300px;
+  margin-right: 300px;
+  font-size: 1.5em;
+  font-style: italic;
+  opacity: 0.5;
+}
+
+footer {
+  background-color: #646472;
+  color: white;
+  padding: 15px 0;
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+  height: 4%;
+  text-decoration: none;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  max-width: 1200px;
+  margin: 0 auto;
+  flex-wrap: wrap;
+}
+
+.navbar-footer {
+  display: flex;
+  justify-content: space-between;
+  max-width: 1200px;
+  color: white;
+  text-decoration: none;
+  margin-bottom: 50px;
+}
+
+.navbar-nav-footer {
+  padding: 10px 10px 10px 0;
+  margin-left: 250px;
+  margin-bottom: 50px;
+  text-decoration: none;
+  display: flex;
+  display: inline-block;
+  flex-wrap: wrap;
+}
+
+.navbar-nav-footer a {
+  float: left;
+  text-align: center;
+  margin-right: 20px;
+  margin-bottom: 70px;
+  display: inline-block;
+  font-weight: bold;
+  font-size: 0.9rem;
+  color: black;
+  text-decoration: none;
+}
+
+.navbar-nav-footer a:hover {
+  float: left;
+  text-align: center;
+  margin-right: 20px;
+  margin-bottom: 70px;
+  display: inline-block;
+  font-weight: bold;
+  font-size: 0.9rem;
+  color: black;
+  text-decoration: none;
+  opacity: 0.4;
+}
